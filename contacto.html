@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Fundación Redentores de Amor</title>
+  <meta name="description" content="Contáctanos en la Fundación Redentores de Amor. Escríbenos, llámanos o visita nuestras redes sociales.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="logo.jpg">
+  <!-- Íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="logo.jpg" alt="Logo Fundación" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección principal -->
+  <main class="contacto-container">
+    <section class="intro">
+      <h1>Contacto</h1>
+      <p>Estamos aquí para escucharte. Escríbenos o conéctate a través de nuestras redes sociales.</p>
+    </section>
+
+    <!-- Formulario -->
+    <section class="contact-form">
+      <form id="form" action="https://formspree.io/f/yourFormID" method="POST">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+
+        <label for="email">Correo</label>
+        <input type="email" name="email" id="email" placeholder="tu@email.com" required>
+
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="form-status"></p>
+    </section>
+
+    <!-- Info adicional -->
+    <section class="info-contacto">
+      <h2>Tam
