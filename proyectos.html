@@ -3,64 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyectos | Fundación Redentores de Amor</title>
-  <meta name="description" content="Conoce los proyectos y programas sociales de la Fundación Redentores de Amor.">
+  <title>Proyectos - Fundación Redentores de Amor</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Descubre los proyectos sociales y programas comunitarios de la Fundación Redentores de Amor.">
+  <meta name="keywords" content="Fundación, proyectos sociales, programas comunitarios, ayuda, educación, desarrollo">
+  <meta name="author" content="Fundación Redentores de Amor">
+
+  <!-- Estilos -->
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="logo.jpg">
-  <!-- Íconos -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <!-- Header -->
+  <!-- HEADER -->
   <header>
-    <nav class="navbar">
-      <a href="index.html" class="logo">
-        <img src="logo.jpg" alt="Logo Fundación" />
-      </a>
+    <div class="navbar">
+      <img src="logo.jpg" alt="Logo Fundación">
       <ul class="nav-links">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="nosotros.html">Nosotros</a></li>
         <li><a href="proyectos.html" class="active">Proyectos</a></li>
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
-    </nav>
+    </div>
   </header>
 
-  <!-- Sección principal -->
-  <main class="proyectos-container">
-    <section class="intro">
-      <h1>Nuestros Proyectos</h1>
-      <p>Estos son algunos de los programas y actividades que desarrollamos para transformar vidas y comunidades.</p>
-    </section>
+  <!-- SECCIÓN PROYECTOS -->
+  <main>
+    <section>
+      <h2>Nuestros Proyectos</h2>
+      <p>En la Fundación Redentores de Amor desarrollamos diferentes iniciativas que buscan impactar positivamente en la comunidad.</p>
 
-    <section class="proyectos-lista">
-      <div class="card">
-        <h2>Programa de Educación</h2>
-        <p>Brindamos apoyo escolar y becas a niños y jóvenes en situación vulnerable, fomentando el acceso a la educación.</p>
-      </div>
-      <div class="card">
-        <h2>Ayuda Alimentaria</h2>
-        <p>Entregamos mercados y alimentos nutritivos a familias en condiciones de pobreza extrema.</p>
-      </div>
-      <div class="card">
-        <h2>Salud y Bienestar</h2>
-        <p>Realizamos brigadas médicas y campañas de prevención para mejorar la calidad de vida de las comunidades.</p>
-      </div>
-      <div class="card">
-        <h2>Empoderamiento Comunitario</h2>
-        <p>Desarrollamos talleres de liderazgo, emprendimiento y formación en valores para fortalecer a las comunidades.</p>
+      <div class="proyectos-grid">
+        <!-- Proyecto 1 -->
+        <div class="proyecto-card">
+          <img src="proyecto1.jpg" alt="Proyecto 1" onerror="this.src='https://via.placeholder.com/400x250?text=Proyecto'">
+          <h3>Programa de Alimentación</h3>
+          <p>Brindamos apoyo nutricional a familias en situación de vulnerabilidad, garantizando su derecho a la alimentación.</p>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="proyecto-card">
+          <img src="proyecto2.jpg" alt="Proyecto 2" onerror="this.src='https://via.placeholder.com/400x250?text=Proyecto'">
+          <h3>Educación para Todos</h3>
+          <p>Ofrecemos talleres educativos y de formación en valores para niños, jóvenes y adultos de comunidades desfavorecidas.</p>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="proyecto-card">
+          <img src="proyecto3.jpg" alt="Proyecto 3" onerror="this.src='https://via.placeholder.com/400x250?text=Proyecto'">
+          <h3>Viviendas Dignas</h3>
+          <p>Desarrollamos proyectos de mejoramiento de viviendas para familias en condiciones precarias.</p>
+        </div>
+
+        <!-- Proyecto 4 -->
+        <div class="proyecto-card">
+          <img src="proyecto4.jpg" alt="Proyecto 4" onerror="this.src='https://via.placeholder.com/400x250?text=Proyecto'">
+          <h3>Salud y Bienestar</h3>
+          <p>Organizamos brigadas de salud y actividades recreativas para promover el bienestar físico y emocional.</p>
+        </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer>
-    <p>&copy; 2025 Fundación Redentores de Amor | Todos los derechos reservados</p>
-    <div class="social-icons">
-      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://wa.me/573000000000" target="_blank"><i class="fab fa-whatsapp"></i></a>
-      <a href="mailto:correo@fundacion.org"><i class="fas fa-envelope"></i></a>
+    <p>© 2025 Fundación Redentores de Amor - Todos los derechos reservados</p>
+    <div>
+      <a href="https://facebook.com" target="_blank">🌐 Facebook</a>
+      <a href="https://instagram.com" target="_blank">📸 Instagram</a>
+      <a href="https://wa.me/573000000000" target="_blank">💬 WhatsApp</a>
     </div>
   </footer>
 </body>
